@@ -4,7 +4,7 @@
 
 ### Solução
 
-[UML](iphone_uml.png.png)
+![UML](iphone_uml.png)
 
 
 Código:
