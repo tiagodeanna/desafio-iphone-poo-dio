@@ -1,48 +1,3 @@
-
-
-# Trilha Java Básico [Desafio DIO](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/poo) 
-
-### Solução
-
-[UML](iphone_uml.png.png)
-
-
-Código:
-
-interfaces
-```java
-package interfaces;
-
-public interface AparelhoTelefonico {
-    public void ligar(String cell);
-    public void atender();
-    public void iniciarCorreioVoz();
-}
-
-```
-```java
-package interfaces;
-
-public interface NavegadorInternet {
-    public void exibirPagina();
-    public void adicionarNovaAba();
-    public void atualizarPagina();
-}
-
-```
-```java
-package interfaces;
-
-public interface ReprodutorMusicial {
-    public void tocar(String musica);
-    public void pausar();
-    public void selecionarMusica();
-}
-
-```
-
-models
-```java
 package models;
 
 import interfaces.AparelhoTelefonico;
@@ -96,14 +51,3 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
         System.out.println("Musica selecionada!");
     }
 }
-
-```
-
-Main
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
-}
-```
